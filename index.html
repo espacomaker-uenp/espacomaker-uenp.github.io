@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Espaço Maker – UENP Campus Cornélio Procópio</title>
+  <meta name="description"
+    content="Laboratório multidisciplinar da UENP em Cornélio Procópio com impressoras 3D, cortadora e gravadora a laser e plotter de recorte. Uso sob agendamento." />
+  <meta property="og:title" content="Espaço Maker – UENP Campus Cornélio Procópio" />
+  <meta property="og:description"
+    content="Laboratório multidisciplinar da UENP em Cornélio Procópio com impressoras 3D, cortadora e gravadora a laser e plotter de recorte. Uso sob agendamento." />
+  <meta property="og:image" content="assets/img/logo.png" />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="top" id="topo"></header>
+  <main>
+    <div class="wrap hero">
+      <div>
+        <h1>Espaço Maker</h1>
+        <p>
+          Laboratório multidisciplinar da UENP em Cornélio Procópio para
+          projetar, cortar, imprimir e construir, e para capacitar professores
+          da educação básica.
+        </p>
+        <a class="btn main" href="agendamento.html">Agendar uso</a><a class="btn" href="postagens/">Ver postagens</a>
+      </div>
+      <img src="assets/img/logo.png" alt="Logo UENP Maker: lâmpada com engrenagem e avião de papel" width="440"
+        height="416" />
+    </div>
+
+    <section id="sobre">
+      <div class="wrap cols">
+        <div>
+          <h2>Sobre</h2>
+          <p>
+            O Espaço Maker do Campus Cornélio Procópio é um laboratório para o
+            design e a construção de projetos variados e para a formação de
+            professores da educação básica. Conta com impressoras 3D,
+            cortadora e gravadora a laser e plotter de recorte.
+          </p>
+          <p>
+            Faz parte do projeto de extensão “Espaço Maker Campus Cornélio
+            Procópio: da pesquisa à inovação”, da Pró-Reitoria de Extensão e
+            Cultura (PROEC) da UENP, vinculado à Chamada Pública CP 19/2023. O
+            projeto apoia pesquisas e propostas pedagógicas voltadas à cultura
+            e à aprendizagem maker.
+          </p>
+          <p>
+            A equipe reúne bolsistas e estagiários selecionados por editais da
+            PROEC, que costumam pedir conhecimento em modelagem 3D.
+          </p>
+        </div>
+        <dl class="facts">
+          <div>
+            <dt>Coordenador</dt>
+            <dd>
+              Prof. Dr. João Coelho Neto ·
+              <a href="mailto:joaocoelho@uenp.edu.br">joaocoelho@uenp.edu.br</a>
+            </dd>
+          </div>
+          <div>
+            <dt>Como utilizar</dt>
+            <dd>
+              O uso é feito sob agendamento.
+              <a href="agendamento.html">Peça seu horário</a>.
+            </dd>
+          </div>
+          <div>
+            <dt>Onde estamos</dt>
+            <dd>
+              Bloco H (Bloco da Matemática), salas H22 e H17. UENP Campus
+              Cornélio Procópio, PR 160, Km 0 (saída para Leópolis), CEP
+              86300-000.
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=UENP+Campus+Cornélio+Procópio">Abrir no
+                mapa</a>
+            </dd>
+          </div>
+          <div>
+            <dt>Contato do campus</dt>
+            <dd>(43) 3520-1770</dd>
+          </div>
+          <div>
+            <dt>Redes</dt>
+            <dd>
+              <a href="https://www.instagram.com/uenp_maker_ccp/">@uenp_maker_ccp</a>
+              no Instagram
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section style="background: #fff">
+      <div class="wrap">
+        <h2>Equipamentos</h2>
+        <div class="thumbs">
+          <a href="equipamentos.html" style="--k: var(--m)"><img src="assets/img/cortadora-laser.jpg" alt="" width="225"
+              height="300" loading="lazy" />Cortadora e gravadora a laser</a>
+          <a href="equipamentos.html" style="--k: var(--c)"><img src="assets/img/impressora-3d.jpg" alt="" width="225"
+              height="300" loading="lazy" />Impressoras 3D</a>
+          <a href="equipamentos.html" style="--k: var(--y)"><img src="assets/img/plotter.jpg" alt="" width="300"
+              height="225" loading="lazy" />Plotter de recorte</a>
+        </div>
+        <a class="btn" href="equipamentos.html">Ver detalhes dos equipamentos</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Últimas postagens</h2>
+        <div class="posts" id="lista-posts" data-limit="3"></div>
+        <p><a class="btn" href="postagens/">Todas as postagens</a></p>
+      </div>
+    </section>
+  </main>
+  <footer id="rodape"></footer>
+  <script src="postagens/posts.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+
+</html>

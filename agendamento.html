@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agendamento – Espaço Maker UENP Cornélio Procópio</title>
+  <meta name="description"
+    content="Como agendar o uso do Espaço Maker da UENP em Cornélio Procópio: formulário e e-mail de contato." />
+  <meta property="og:title" content="Agendamento – Espaço Maker UENP Cornélio Procópio" />
+  <meta property="og:description"
+    content="Como agendar o uso do Espaço Maker da UENP em Cornélio Procópio: formulário e e-mail de contato." />
+  <meta property="og:image" content="assets/img/logo.png" />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="top" id="topo"></header>
+  <main>
+    <div class="wrap page">
+      <h1>Agendamento</h1>
+      <p class="lead">
+        O uso do espaço é feito sob agendamento. Preencha o formulário e o seu
+        aplicativo de e-mail abrirá com a mensagem pronta, ou escreva direto
+        para
+        <a href="mailto:espacomaker.agendamentos.ccp@uenp.edu.br">espacomaker.agendamentos.ccp@uenp.edu.br</a>.
+      </p>
+      <form id="agenda">
+        <label>Nome<input name="nome" required autocomplete="name" /></label>
+        <label>Curso ou instituição<input name="inst" required /></label>
+        <label>Equipamento
+          <select name="equip">
+            <option>Impressora 3D</option>
+            <option>Cortadora e gravadora a laser</option>
+            <option>Plotter de recorte</option>
+            <option>Mais de um / não sei ainda</option>
+          </select>
+        </label>
+        <label>Data desejada<input name="data" type="date" /></label>
+        <label>Descreva o projeto<textarea name="desc" rows="4" required></textarea>
+        </label>
+        <div>
+          <button class="btn main" type="submit">
+            Enviar pedido por e-mail
+          </button>
+        </div>
+      </form>
+      <p style="margin-top: 40px">
+        Estamos no Bloco H (Bloco da Matemática), salas H22 e H17, no Campus
+        Cornélio Procópio da UENP.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=UENP+Campus+Cornélio+Procópio">Abrir no mapa</a>
+      </p>
+    </div>
+  </main>
+  <footer id="rodape"></footer>
+  <script src="assets/site.js"></script>
+</body>
+
+</html>
