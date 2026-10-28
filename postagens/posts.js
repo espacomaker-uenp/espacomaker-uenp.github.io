@@ -1,0 +1,11 @@
+// Lista de postagens. Para publicar uma nova, copie um arquivo .html desta pasta
+// e adicione uma linha aqui (as mais recentes aparecem primeiro, ordenadas pela data).
+window.POSTS = [
+  {
+    titulo: "Bem-vindo às postagens do Espaço Maker",
+    resumo: "Aqui vamos mostrar o que é criado no laboratório: peças impressas em 3D, cortes a laser, recortes de vinil e oficinas.",
+    data: "2026-10-28",
+    categoria: "Projetos",
+    arquivo: "bem-vindo.html"
+  }
+];
